@@ -17,8 +17,8 @@ import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
+ADMIN = int(os.environ.get("ADMIN", 1949037588))
+bot_username = os.environ.get("BOT_USERNAME","Charu_lkbot")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/infinityx_Lk")],
+                                      [InlineKeyboardButton("🦋 backup 🦋", url="https://t.me/infinity_Lk")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/infinity_Lk'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/infinityworldlk')],
+                                      [InlineKeyboardButton("☕ owner ☕", url='https://t.me/nimsar_a')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/infinityx_Lk")],
+                                              [InlineKeyboardButton("🦋 backup 🦋", url="https://t.me/infinity_Lk")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/infinityx_Lk'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/infinityworldlk')],
+                                             [InlineKeyboardButton("☕ owner ☕", url='https://t.me/nimsar_a')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/infinityx_Lk")],
+                                          [InlineKeyboardButton("🦋 backup 🦋", url="https://t.me/infinity_Lk")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/infinityworldlk')],
+                                          [InlineKeyboardButton("☕ owner ☕", url='https://t.me/nimsar_a')]
                                           ]))
     
 
